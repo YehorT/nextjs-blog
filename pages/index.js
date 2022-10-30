@@ -20,9 +20,6 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <h1>
-        <Link href="/posts/first-post">Read this page</Link>
-      </h1>
       <section className={utilStyles.headingMd}>
         <p>Hello, World!</p>
         <p>
